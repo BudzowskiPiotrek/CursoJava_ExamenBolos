@@ -1,4 +1,4 @@
-# CursoJava Examen : Bolos
+# CursoJava App de juego de los Bolos
 
 🎳 ¡Vamos a jugar a los bolos!
 Aunque no será necesario conocer las reglas del juego original, vamos a implementar nuestra propia competición.
