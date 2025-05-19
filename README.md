@@ -1,24 +1,27 @@
 # CursoJava App de juego de los Bolos
 
 🎳 ¡Vamos a jugar a los bolos!
+
 Aunque no será necesario conocer las reglas del juego original, vamos a implementar nuestra propia competición.
 Crearemos una aplicación en Java que registre las puntuaciones de los jugadores en una partida de bolos, donde cada uno podrá realizar tres lanzamientos. 🎯
 
-📦 Clases a implementar
+## 📦 Clases a implementar
 
-## 🧪 Clase Simulación (1 punto)
-Simula un lanzamiento de bolos generando un número aleatorio entre 0 y 100.
+##   🧪 Clase Simulación (1 punto)
+
+  - Simula un lanzamiento de bolos generando un número aleatorio entre 0 y 100.
 
   - Contiene el método:
 
     - devolverPuntuación() ➡️ retorna la puntuación del lanzamiento.
 
-## 🎲 Clase Tirada (2 puntos)
-Almacena:
+##   🎲 Clase Tirada (2 puntos)
 
-  - Los tres lanzamientos de cada jugador (gracias a Simulación).
+  - Almacena:
 
-  - El nombre del tirador 🧍 y la fecha 📅.
+    - Los tres lanzamientos de cada jugador (gracias a Simulación).
+
+    - El nombre del tirador 🧍 y la fecha 📅.
 
   - Contiene los métodos:
 
@@ -28,7 +31,7 @@ Almacena:
 
     - totalLanzamientos() ➡️ suma de los tres lanzamientos.
 
-## 🏁 Clase Principal
+##   🏁 Clase Principal
 
   - Gestiona un array de hasta 100 partidas.
   - Se deben realizar las siguientes tareas:
@@ -41,7 +44,7 @@ Almacena:
 
     - mayorTotal() 🏆: Mostrar la tirada con mayor total (si hay empate, la más antigua). (0.5 puntos)
 
-## 🚪 Salir de la aplicación
+##   🚪 Salir de la aplicación
 
   - 💾 Persistencia de datos
     
@@ -60,6 +63,6 @@ Almacena:
 
     - Se guarda el estado actual del array en datos.dat 🗃️ 🟢 Valor total: 3 puntos (1.5 + 1.5)
       
-## 📝 Nota importante:
+##   📝 Nota importante:
 
   - En este ejercicio se deberá utilizar exclusivamente las variables y métodos indicados explícitamente en el enunciado.
