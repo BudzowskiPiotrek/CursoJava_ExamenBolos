@@ -97,7 +97,7 @@ public class Main {
 		boolean existePartida = false;
 		for (int i = 0; i < partidas.length && partidas[i] != null; i++) {
 			System.out.println("En la partida numero: " + (i + 1) + " , " + partidas[i].getNombre()
-					+ " obtubo un minimo de: " + partidas[i].peorLanzamiento());
+					+ " obtuvo un minimo de: " + partidas[i].peorLanzamiento());
 			existePartida = true;
 		}
 		if (!existePartida) {
@@ -112,7 +112,7 @@ public class Main {
 		boolean existePartida = false;
 		for (int i = 0; i < partidas.length && partidas[i] != null; i++) {
 			System.out.println("En la partida numero: " + (i + 1) + " , " + partidas[i].getNombre()
-					+ " obtubo un maximo de: " + partidas[i].mejorLanzamiento());
+					+ " obtuvo un maximo de: " + partidas[i].mejorLanzamiento());
 			existePartida = true;
 		}
 		if (!existePartida) {
@@ -135,7 +135,7 @@ public class Main {
 			for (int i = 0; i < partidas.length && partidas[i] != null; i++) {
 				if (partidas[i].getFechaTirada().isEqual(masAntigua)) {
 					System.out.println("En la partida numero: " + (i + 1) + ", " + partidas[i].getNombre()
-							+ " obtubo un total de: " + partidas[i].totalLanzaminetos());
+							+ " obtuvo un total de: " + partidas[i].totalLanzaminetos());
 				}
 			}
 		} else {
