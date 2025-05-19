@@ -59,9 +59,9 @@ Crearemos una aplicación en Java que registre las puntuaciones de los jugadores
     - Guardar el nombre y puntuación en un fichero llamado ganador.txt 📝. (1.5 puntos)
 
   - Al salir:
-    - Se guarda la partida con mayor puntuación en ganador.txt 🏅 (incluye nombre y puntuación del tirador)
+    - Se guarda la partida con mayor puntuación en ganador.txt 🏅 (incluye nombre y puntuación del tirador) (1.5 puntos )
 
-    - Se guarda el estado actual del array en datos.dat 🗃️ 🟢 Valor total: 3 puntos (1.5 + 1.5)
+    - Se guarda el estado actual del array en datos.dat 🗃️ 
       
 ##   📝 Nota importante:
 
