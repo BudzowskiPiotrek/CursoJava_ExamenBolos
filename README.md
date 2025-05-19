@@ -54,14 +54,15 @@ Crearemos una aplicación en Java que registre las puntuaciones de los jugadores
 
   - Antes de salir:
 
-    - Seleccionar la tirada con mayor puntuación total.
+    - Se guarda el estado actual del array en datos.dat 🗃️ 
 
     - Guardar el nombre y puntuación en un fichero llamado ganador.txt 📝. (1.5 puntos)
 
   - Al salir:
-    - Se guarda la partida con mayor puntuación en ganador.txt 🏅 (incluye nombre y puntuación del tirador) (1.5 puntos)
 
-    - Se guarda el estado actual del array en datos.dat 🗃️ 
+    - Seleccionar la tirada con mayor puntuación total.
+
+    - Se guarda la partida con mayor puntuación en ganador.txt 🏅 (incluye nombre y puntuación del tirador) (1.5 puntos)
       
 ##   📝 Nota importante:
 
